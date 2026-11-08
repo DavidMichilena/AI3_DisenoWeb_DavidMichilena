@@ -1,6 +1,6 @@
 # AI3_DisenoWeb_DavidMichilena
 # actividad integradora 3
-/n Para desplegar la actividad se debe instalar los siguiente:
+Para desplegar la actividad se debe instalar los siguiente:
 Instalar Xampp
 crear la base de datos db_sistema_web 
 ingresar al phpmy admin
