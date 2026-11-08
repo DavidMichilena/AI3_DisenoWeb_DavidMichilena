@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Crear Cuenta</h2>
+    <form action="procesar.php" method="POST">
+        
+        <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required minlength="3" maxlength="100">
+        </div>
+
+        <div class="form-group">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required maxlength="150">
+        </div>
+
+        <button type="submit">Registrar</button>
+    </form>
+    <a href="usuarios.php" class="btn-secondary">Visualizar Registros</a>
+</div>
+
+</body>
+</html>
