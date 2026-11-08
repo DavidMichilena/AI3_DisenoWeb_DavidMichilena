@@ -10,4 +10,5 @@ copiar el contenido del archivo db_sistema_web
 Se creara los campos
 Crear la carpeta "registrar" en "C:Xampp/htdocs/registar"
 descargar y copiar los archivos: index,procesar, styles y  usuarios en la carpeta C:Xampp/htdocs/registar
-
+ingresar a http://localhost/registro/index.html
+validar el proyecto
